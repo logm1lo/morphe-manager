@@ -398,10 +398,8 @@ Parhaan tuloksen saavuttamiseksi sovellus suosittelee kokonaisen &lt;b&gt;APK-ti
     <string name="settings_advanced_expert_mode_description">Ota käyttöön Morphe-päivityksen asetukset ja mukautusvaihtoehdot</string>
     <string name="settings_advanced_expert_mode_dialog_title">Ota Expert-moodi käyttöön?</string>
     <string name="settings_advanced_expert_mode_dialog_message">Expert-moodi antaa enemmän valtaa päivitysten sovittamisesta, mutta väärin asetettu expert-moodi voi johtaa sovelluksen toimimattomuuteen</string>
-    <string name="settings_advanced_strip_unused_libs">Poista käyttämättömät natiivikirjastot</string>
-    <string name="settings_advanced_strip_unused_libs_description">Poista tukemattomien suoritinarkkitehtuurien natiivikirjastot paikatuista sovelluksista</string>
-    <string name="settings_advanced_skip_unneeded_splits">Suodata laitekohtaiset APK:t</string>
-    <string name="settings_advanced_skip_unneeded_splits_description">Yhdistäminen aikana ohita kieliversio-, tiheys- ja ABI-erottelut, joita tämä laite ei tarvitse. Vähentää yhdistetyn APK:n kokoa</string>
+    <string name="settings_advanced_strip_unused_libs">Optimoi laitteen arkkitehtuuri</string>
+    <string name="settings_advanced_strip_unused_libs_description">"Ohita jaetut APK-moduulit tuettujen CPU-arkkitehtuurien, kieliasetusten ja näytön resoluutioiden osalta yhdistämisen aikana.\nPlain APK -tiedostoissa poistetaan natiivikirjastot tuettujen arkkitehtuurien osalta korjaamisen jälkeen"</string>
     <!-- Bytecode mode -->
     <string name="settings_advanced_bytecode_mode">Bytekoodin käsittelytila</string>
     <string name="settings_advanced_bytecode_mode_dialog_description">Määrittää, miten bytecode käsitellään paikkatessa. Vaikuttaa paikkatuksen nopeuteen, muistin käyttöön ja ulostulon APK:n kokoon</string>

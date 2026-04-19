@@ -398,10 +398,9 @@
     <string name="settings_advanced_expert_mode_description">אפשר הגדרות תיקון מורפמה מורכבות וoptions אישוריות מותאמות אישית</string>
     <string name="settings_advanced_expert_mode_dialog_title">אפשר את режим מומחה?</string>
     <string name="settings_advanced_expert_mode_dialog_message">mode מומחה מספק יותר שליטה על איך התיקונים מופעלים, אך תצורתה של הגדרות ב-mode מומחה יכולה לגרום לאפליקציה שאינה פונקציונלית</string>
-    <string name="settings_advanced_strip_unused_libs">הסר את קבצים נטוים</string>
-    <string name="settings_advanced_strip_unused_libs_description">הסרת קבצים נטוים תאפשר מהיר יותר את הפיצ\'ח, אך ייתכן שלא תעבוד על מכשירים ישנים</string>
-    <string name="settings_advanced_skip_unneeded_splits">סנן APK מפוצלים עבור מכשיר</string>
-    <string name="settings_advanced_skip_unneeded_splits_description">במהלך מיזוג, פסול גרסאות מקומיות, צפיפות ו-ABI שאינן נחוצות עבור מכשיר זה. מקטין את גודל ה-APK הממוזג</string>
+    <string name="settings_advanced_strip_unused_libs">לייעל עבור ארכיטקטורת ההתקן</string>
+    <string name="settings_advanced_strip_unused_libs_description">"לדלג על מודולי APK מפולחים עבור ארכיטקטורות, שפות ואזורי מסך לא נתמכים במהלך האיחוד.
+עבור APK רגילים, מסיר ספריות מקומיות עבור ארכיטקטורות לא נתמכות לאחר תיקון"</string>
     <!-- Bytecode mode -->
     <string name="settings_advanced_bytecode_mode">מצב עיבוד bytecode</string>
     <string name="settings_advanced_bytecode_mode_dialog_description">שולט באופן עיבוד ה-bytecode במהלך תיקון. משפיע על מהירות התיקון, השימוש בזיכרון וגודל ה-APK הפלט.</string>

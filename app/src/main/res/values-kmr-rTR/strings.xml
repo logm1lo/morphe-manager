@@ -397,10 +397,9 @@ Ji bo mezgînî, ev sepan pêşniyar dike ku paketek &lt;b&gt;full APK&lt;/b&gt;
     <string name="settings_advanced_expert_mode_description">Sazgarê nêzîkên Morphe û ji bo vebijarkan nermalina xwe saz bike</string>
     <string name="settings_advanced_expert_mode_dialog_title">Modeka pispor çêbike?</string>
     <string name="settings_advanced_expert_mode_dialog_message">Moda pispor kontrola zêdetir ser bernameyên ku meriv pêdike, lê çêkirina bêreng di moda pispor de dikare bibe sedem ku sepan bibe nekar.</string>
-    <string name="settings_advanced_strip_unused_libs">Kîle pêwist nakin ji rayaka orîjînalan derxîne</string>
-    <string name="settings_advanced_strip_unused_libs_description">Rayakên orîjînal ên ji bo arîtekî têrxaniyê nedesînar, ji app vêjaer bikin</string>
-    <string name="settings_advanced_skip_unneeded_splits">дебере опосешини акексите лезу жайисесеси</string>
-    <string name="settings_advanced_skip_unneeded_splits_description">Пиюсериданиеяйемержеы, оточите локал, згелените и аби не необходимыся лезу аватоса припираедения. Качиствения мержение акксителинами акпикел</string>
+    <string name="settings_advanced_strip_unused_libs">Ji arîkek cihazê ve saz bike</string>
+    <string name="settings_advanced_strip_unused_libs_description">"Modûlên APK-yên parçabûn ji bo arîkên CPU, zimanên lokal û qasîyên ekranê nedastûrik bêgîrîk merivê.
+Ji bo APK-yên sazkare, fîlimên xwecihî ji bo arîkên nedastûrik piştî çêkirinê vedigere"</string>
     <!-- Bytecode mode -->
     <string name="settings_advanced_bytecode_mode">Fêrqa pêşdaraziyê kodê</string>
     <string name="settings_advanced_bytecode_mode_dialog_description">Kontrol dike ka kod çawa di dema guhertinê de pêşdarêzê. Bandor li ser leza guhertinê, karanîna bîr û mezinahiya APK ya derveyî dike.</string>

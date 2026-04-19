@@ -399,10 +399,9 @@
     <string name="settings_advanced_expert_mode_description">Morphe の高度なパッチ設定とカスタマイズオプションを有効にします</string>
     <string name="settings_advanced_expert_mode_dialog_title">エキスパート モードを有効にしますか？</string>
     <string name="settings_advanced_expert_mode_dialog_message">エキスパートモードではパッチ適用の詳細設定が可能ですが、設定を誤るとアプリが正常に動作しなくなる可能性があります</string>
-    <string name="settings_advanced_strip_unused_libs">未使用のネイティブライブラリの削除</string>
-    <string name="settings_advanced_strip_unused_libs_description">パッチ適用済みアプリから、非対応の CPU アーキテクチャ向けネイティブ ライブラリを削除します</string>
-    <string name="settings_advanced_skip_unneeded_splits">デバイス向けにAPKスプリットをフィルタリングする</string>
-    <string name="settings_advanced_skip_unneeded_splits_description">マージ中に、このデバイスに必要なロケール、密度、およびABIのスプリットをスキップします。マージされたAPKのサイズを削減します</string>
+    <string name="settings_advanced_strip_unused_libs">デバイスのアーキテクチャに最適化する</string>
+    <string name="settings_advanced_strip_unused_libs_description">"マージ時、サポートされていないCPUアーキテクチャ、ロケール、および画面密度に対して分割APKモジュールをスキップします。
+プレーンAPKの場合、パッチ適用後にサポートされていないアーキテクチャに対してネイティブライブラリを削除します"</string>
     <!-- Bytecode mode -->
     <string name="settings_advanced_bytecode_mode">バイトコード処理モード</string>
     <string name="settings_advanced_bytecode_mode_dialog_description">パッチ適用時のバイトコードの処理方法を設定します。処理速度、メモリ使用量、出力 APK のサイズに影響します</string>

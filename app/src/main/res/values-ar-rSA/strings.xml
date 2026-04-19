@@ -399,10 +399,9 @@
     <string name="settings_advanced_expert_mode_description">تمكين إعدادات تعديل Morphe المتقدمة وخيارات التخصيص</string>
     <string name="settings_advanced_expert_mode_dialog_title">تمكين وضع الخبير؟</string>
     <string name="settings_advanced_expert_mode_dialog_message">وضع الخبير يوفر مزيدًا من التحكم في كيفية تطبيق التعديلات، ولكن الإعداد الخاطئ لوضع الخبير يمكن أن يوقف التطبيق عن العمل</string>
-    <string name="settings_advanced_strip_unused_libs">إزالة المكتبات الأصلية غير المستخدمة</string>
-    <string name="settings_advanced_strip_unused_libs_description">حذف المكتبات الأصلية لبنى المعالجات غير المدعومة من التطبيقات المعدلة</string>
-    <string name="settings_advanced_skip_unneeded_splits">تصفية ملفات APK المقسمة للجهاز</string>
-    <string name="settings_advanced_skip_unneeded_splits_description">أثناء الدمج، تخطي اللغات والكثافات وواجهات برمجة التطبيقات التي لا تحتاجها هذه الجهاز. يقلل من حجم ملف APK المدمج</string>
+    <string name="settings_advanced_strip_unused_libs">تحسين وفق معمارية الجهاز</string>
+    <string name="settings_advanced_strip_unused_libs_description">"تخطي وحدات APK المقسمة الخاصة بمعماريات المعالج، اللغات وكثافات الشاشة غير المدعومة أثناء الدمج.
+بالنسبة لملفات APK العادية، يتم إزالة المكتبات الأصلية الخاصة بالمعماريات غير المدعومة بعد التعديل"</string>
     <!-- Bytecode mode -->
     <string name="settings_advanced_bytecode_mode">وضع المعالجة Bytecode</string>
     <string name="settings_advanced_bytecode_mode_dialog_description">يتحكم في كيفية معالجة Bytecode أثناء التعديل. يؤثر على سرعة التعديل، استخدام الذاكرة، وحجم APK الناتج</string>

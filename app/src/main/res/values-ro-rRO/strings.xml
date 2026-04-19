@@ -399,10 +399,9 @@ Pentru cele mai bune rezultate, această aplicație recomandă patch-uirea unui 
     <string name="settings_advanced_expert_mode_description">Activează setările complexe de pateâturi Morphe si opârii de personalizare</string>
     <string name="settings_advanced_expert_mode_dialog_title">Vrei sâ activezi modul expert?</string>
     <string name="settings_advanced_expert_mode_dialog_message">Modul expert oferâ mai mult control asupra modului cum pateâturile sunt aplicaâ, dar o configurare greşită a setârilor poate duce la o aplicaâ nefuncțională</string>
-    <string name="settings_advanced_strip_unused_libs">Elimină bibliotecile native nefolosite</string>
-    <string name="settings_advanced_strip_unused_libs_description">Șterge bibliotecile native pentru arhitecturile CPU nesuportate din aplicațiile patch-uite</string>
-    <string name="settings_advanced_skip_unneeded_splits">Filtrează APK-uri divizate pentru dispozitiv</string>
-    <string name="settings_advanced_skip_unneeded_splits_description">În timpul fuziunii, omite diviziunile pentru locație, densitate și ABI care nu sunt necesare pentru acest dispozitiv. Reduce dimensiunea APK-ului fuzionat</string>
+    <string name="settings_advanced_strip_unused_libs">Optimize pentru arhitectura dispozitivului</string>
+    <string name="settings_advanced_strip_unused_libs_description">"Omite modulele APK split pentru arhitecturi CPU, locale și densități de ecran nesuportate în timpul îmbinării.
+Pentru APK-urile plain, elimină bibliotecile native pentru arhitecturi nesuportate după patch"</string>
     <!-- Bytecode mode -->
     <string name="settings_advanced_bytecode_mode">Mod de procesare bytecode</string>
     <string name="settings_advanced_bytecode_mode_dialog_description">Controlează modul în care bytecode-ul este procesat în timpul patch-ului. Afectează viteza de patch, utilizarea memoriei și dimensiunea APK-ului de ieșire</string>

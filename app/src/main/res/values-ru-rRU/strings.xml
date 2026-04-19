@@ -399,10 +399,9 @@
     <string name="settings_advanced_expert_mode_description">Включить комплексные настройки патчей Morphe и параметры настройки</string>
     <string name="settings_advanced_expert_mode_dialog_title">Включить режим эксперта?</string>
     <string name="settings_advanced_expert_mode_dialog_message">Экспертный режим предоставляет больше контроля над применением патчей, но неправильная настройка параметров в экспертном режиме может привести к нетрудоспособности программы.</string>
-    <string name="settings_advanced_strip_unused_libs">Удалить неиспользуемые нативные библиотеки</string>
-    <string name="settings_advanced_strip_unused_libs_description">Удалить нативные библиотеки для неподдерживаемых архитектур CPU из пропатченных приложений</string>
-    <string name="settings_advanced_skip_unneeded_splits">Фильтр разделенных APK для устройства</string>
-    <string name="settings_advanced_skip_unneeded_splits_description">При слиянии пропускать локали, плотность и ABI, не необходимые для этого устройства. Уменьшает размер объединенного APK</string>
+    <string name="settings_advanced_strip_unused_libs">Оптимизация для архитектуры устройства</string>
+    <string name="settings_advanced_strip_unused_libs_description">"Пропускать split модули APK для неподдерживаемых CPU архитектур, локализаций и DPI экрана во время объединения.
+Для обычных APK удаляет нативные библиотеки для неподдерживаемых архитектур после патча"</string>
     <!-- Bytecode mode -->
     <string name="settings_advanced_bytecode_mode">Режим обработки байт-кода</string>
     <string name="settings_advanced_bytecode_mode_dialog_description">Управление процессом обработки байт-кода при установке патчей. Влияет на скорость установки патчей, использование памяти и размер исходного APK</string>

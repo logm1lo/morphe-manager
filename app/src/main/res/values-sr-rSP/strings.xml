@@ -398,10 +398,9 @@
     <string name="settings_advanced_expert_mode_description">Omogući kompleksno podešavanje Morphe i personalizacija opcija</string>
     <string name="settings_advanced_expert_mode_dialog_title">Omogući režim eksperta?</string>
     <string name="settings_advanced_expert_mode_dialog_message">Režim eksperta omogućava veću kontrolu nad primenom patchova, ali pogrešno podešavanje postavki u režimu eksperta može da rezultuje nefunkcionalnom aplikacijom</string>
-    <string name="settings_advanced_strip_unused_libs">Уклонити ненужне оригиналне библиотеке</string>
-    <string name="settings_advanced_strip_unused_libs_description">Брисање ненужних оригиналних библиотека може повећати патчирање, али може бити недовољно за старије уређаје</string>
-    <string name="settings_advanced_skip_unneeded_splits">Филтрирајте подељене APK-ове за уређај</string>
-    <string name="settings_advanced_skip_unneeded_splits_description">Током спајања, прескочите језичке, густине и ABI поделе које нису потребне за овај уређај. Смањује величину спојеног APK-а</string>
+    <string name="settings_advanced_strip_unused_libs">Optimizujte za arhitekturu uređaja</string>
+    <string name="settings_advanced_strip_unused_libs_description">"Preskoči SPLIT APK module za nepoznate CPU arhitekture, lokale i rezolucije ekrana tokom objedinjavanja.
+Za obične APK-ove, uklanja nativne biblioteke za nepoznate arhitekture nakon 'patch'ovanja"</string>
     <!-- Bytecode mode -->
     <string name="settings_advanced_bytecode_mode">Начин рада обраде байткода</string>
     <string name="settings_advanced_bytecode_mode_dialog_description">Контролише како се обрађује байткод током поправке. Утиче на брзину поправке, коришћење меморије и величину излазне APK датотеке</string>

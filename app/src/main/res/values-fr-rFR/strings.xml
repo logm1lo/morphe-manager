@@ -399,10 +399,9 @@ Pour obtenir les patchs en pré-version, activez l’option pré-versions sépar
     <string name="settings_advanced_expert_mode_description">Activer les paramètres de patchage Morphe complexes et les options de personnalisation</string>
     <string name="settings_advanced_expert_mode_dialog_title">Passer en mode Expert ?</string>
     <string name="settings_advanced_expert_mode_dialog_message">Le mode Expert offre plus de contrôle sur la manière dont les patchs sont appliqués, mais une mauvaise configuration des paramètres en mode expert peut rendre l’application inutilisable</string>
-    <string name="settings_advanced_strip_unused_libs">Supprimer les bibliothèques natives inutilisées</string>
-    <string name="settings_advanced_strip_unused_libs_description">Supprimer les bibliothèques natives pour les architectures CPU non prises en charge des applications patchées</string>
-    <string name="settings_advanced_skip_unneeded_splits">Filtrer les APK fractionnés pour appareil</string>
-    <string name="settings_advanced_skip_unneeded_splits_description">Pendant la fusion, ignorer les variantes de langue, de densité et d\'ABI qui ne sont pas nécessaires pour cet appareil. Réduit la taille de l\'APK fusionné.</string>
+    <string name="settings_advanced_strip_unused_libs">Optimiser pour l\'architecture de l\'appareil</string>
+    <string name="settings_advanced_strip_unused_libs_description">"Ignorer les modules APK fractionnés pour les architectures CPU, les locales et les densités d’écran non prises en charge lors de la fusion.
+Pour les APK simples, supprime les bibliothèques natives pour les architectures non prises en charge après le patchage"</string>
     <!-- Bytecode mode -->
     <string name="settings_advanced_bytecode_mode">Mode de traitement du bytecode</string>
     <string name="settings_advanced_bytecode_mode_dialog_description">Définit la manière dont le bytecode est traité lors du patchage. Impacte la vitesse de patchage, l’utilisation mémoire et la taille de l’APK généré</string>

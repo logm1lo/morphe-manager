@@ -399,10 +399,9 @@
     <string name="settings_advanced_expert_mode_description">Включете сложни настройки за патчове и опции за personnalization на Morphe</string>
     <string name="settings_advanced_expert_mode_dialog_title">Включете експерт режим?</string>
     <string name="settings_advanced_expert_mode_dialog_message">Експертният режим дава повече контрол над прилагането на патчове, но грешно конфигуриране на настройките в експертния режим може да доведе до неработеща приложение</string>
-    <string name="settings_advanced_strip_unused_libs">Изтриване на непотребимите библиотеки</string>
-    <string name="settings_advanced_strip_unused_libs_description">Изтриване на библиотеки за неподдържани CPU архитектури от замести</string>
-    <string name="settings_advanced_skip_unneeded_splits">Филтриране на разделени APK за устройство</string>
-    <string name="settings_advanced_skip_unneeded_splits_description">По време на сливане, пропускане на езикови, плътностни и ABI разделяния, които не са необходими за това устройство. Намалява размера на обединения APK</string>
+    <string name="settings_advanced_strip_unused_libs">Оптимизиране за архитектурата на устройството</string>
+    <string name="settings_advanced_strip_unused_libs_description">"Пропускане на разделени APK модули за неподдържани CPU архитектури, езици и резолюции на екрана по време на сливане.
+За обикновени APK, премахва native библиотеки за неподдържани архитектури след поправяне"</string>
     <!-- Bytecode mode -->
     <string name="settings_advanced_bytecode_mode">Режим на обработка на bytecode</string>
     <string name="settings_advanced_bytecode_mode_dialog_description">Контролира как bytecode се обработва по време на поправяне. Влияе върху скоростта на поправяне, използването на памет и размера на изходния APK</string>

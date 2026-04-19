@@ -399,10 +399,9 @@ For de bedste resultater anbefaler denne app at patche en &lt;b&gt;fuld APK&lt;/
     <string name="settings_advanced_expert_mode_description">Aktiver komplicerede Morphe patchindstillinger og tilpasningsmuligheder</string>
     <string name="settings_advanced_expert_mode_dialog_title">Aktiver Eksperttilstand?</string>
     <string name="settings_advanced_expert_mode_dialog_message">Eksperttilstand giver mere kontrol over hvordan patches bliver anvendt, men en forkert konfiguration af indstillinger i eksperttilstand kan resultere i en ikke-funktionel app</string>
-    <string name="settings_advanced_strip_unused_libs">Fjern ubrugte native biblioteker</string>
-    <string name="settings_advanced_strip_unused_libs_description">Slet ubrugte native biblioteker for ikke-understøttede CPU-arkitekturer fra patchet apps</string>
-    <string name="settings_advanced_skip_unneeded_splits">Filtrer split APK\'er for enhed</string>
-    <string name="settings_advanced_skip_unneeded_splits_description">Under sammensmeltning, spring lokaler, densitet og ABI splits over, der ikke er nødvendige for denne enhed. Reducerer størrelsen på det sammensmeltede APK</string>
+    <string name="settings_advanced_strip_unused_libs">Optimer for enhedens arkitektur</string>
+    <string name="settings_advanced_strip_unused_libs_description">"Overspring split APK-moduler for understøttede CPU-arkitekturer, sprogområder og skærmdensiteter under sammensmeltning.
+For almindelige APK'er fjernes native biblioteker for understøttede arkitekturer efter patching"</string>
     <!-- Bytecode mode -->
     <string name="settings_advanced_bytecode_mode">Bytecodetilstand</string>
     <string name="settings_advanced_bytecode_mode_dialog_description">Styrer, hvordan bytecode behandles under patching. Påvirker patching-hastighed, hukommelsesforbrug og output APK-størrelse</string>

@@ -399,10 +399,9 @@ Para obtener los mejores resultados, esta aplicación recomienda parchear un &lt
     <string name="settings_advanced_expert_mode_description">Activa ajustes complejos de parcheo de Morphe y opciones de personalización</string>
     <string name="settings_advanced_expert_mode_dialog_title">¿Activar el modo experto?</string>
     <string name="settings_advanced_expert_mode_dialog_message">El modo experto ofrece más control sobre cómo se aplican los parches, pero configurar incorrectamente los ajustes en modo experto puede resultar en una aplicación no funcional</string>
-    <string name="settings_advanced_strip_unused_libs">Eliminar bibliotecas nativas no utilizadas</string>
-    <string name="settings_advanced_strip_unused_libs_description">Eliminar bibliotecas nativas para arquitecturas de CPU no compatibles de las aplicaciones parcheadas</string>
-    <string name="settings_advanced_skip_unneeded_splits">Filtrar APKs divididos para dispositivo</string>
-    <string name="settings_advanced_skip_unneeded_splits_description">Durante la fusión, omitir las divisiones de idioma, densidad y ABI que no son necesarias para este dispositivo. Reduce el tamaño del APK fusionado</string>
+    <string name="settings_advanced_strip_unused_libs">Optimizar para la arquitectura del dispositivo</string>
+    <string name="settings_advanced_strip_unused_libs_description">"Omite los módulos APK divididos para arquitecturas de CPU, idiomas y densidades de pantalla no compatibles durante la fusión.
+Para APK sencillos, elimina las bibliotecas nativas para arquitecturas no compatibles después de parchear"</string>
     <!-- Bytecode mode -->
     <string name="settings_advanced_bytecode_mode">Modo de procesamiento de bytecode</string>
     <string name="settings_advanced_bytecode_mode_dialog_description">Controla cómo se procesa el bytecode durante el parcheo. Afecta a la velocidad de parcheo, el uso de memoria y el tamaño del APK de salida</string>

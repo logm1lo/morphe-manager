@@ -400,10 +400,9 @@ Harap bersiap untuk perilaku aplikasi yang tidak biasa atau bug yang belum terid
     <string name="settings_advanced_expert_mode_description">Aktifkan pengaturan penambalan Morphe yang kompleks dan pilihan kustomisasi</string>
     <string name="settings_advanced_expert_mode_dialog_title">Aktifkan mode Ahli?</string>
     <string name="settings_advanced_expert_mode_dialog_message">Mode ahli memberikan kontrol yang lebih banyak terhadap bagaimana penambalan diterapkan, tetapi pengaturan yang salah dalam mode ahli dapat menyebabkan aplikasi tidak berfungsi</string>
-    <string name="settings_advanced_strip_unused_libs">Hapus pustaka bawaan yang tidak digunakan</string>
-    <string name="settings_advanced_strip_unused_libs_description">Hapus pustaka bawaan untuk arsitektur CPU yang tidak didukung dari aplikasi yang ditambal</string>
-    <string name="settings_advanced_skip_unneeded_splits">Filter APK split untuk perangkat</string>
-    <string name="settings_advanced_skip_unneeded_splits_description">Saat penggabungan, lewati split lokal, kepadatan, dan ABI yang tidak diperlukan untuk perangkat ini. Mengurangi ukuran APK gabungan</string>
+    <string name="settings_advanced_strip_unused_libs">Optimalkan untuk arsitektur perangkat</string>
+    <string name="settings_advanced_strip_unused_libs_description">"Lewati modul APK terpisah untuk arsitektur CPU, lokal, dan kerapatan layar yang tidak didukung selama penggabungan.
+Untuk APK biasa, hapus pustaka asli untuk arsitektur yang tidak didukung setelah menambal"</string>
     <!-- Bytecode mode -->
     <string name="settings_advanced_bytecode_mode">Mode pemrosesan bytecode</string>
     <string name="settings_advanced_bytecode_mode_dialog_description">Mengontrol bagaimana bytecode diproses selama penambalan. Memengaruhi kecepatan penambalan, penggunaan memori, dan ukuran APK yang dihasilkan</string>

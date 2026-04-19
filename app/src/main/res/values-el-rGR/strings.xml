@@ -399,10 +399,9 @@
     <string name="settings_advanced_expert_mode_description">Ενεργοποιήστε περίπλοκες ρυθμίσεις τροποποιήσεων του Morphe και προσαρμοσμένες επιλογές</string>
     <string name="settings_advanced_expert_mode_dialog_title">Ενεργοποίηση της λειτουργίας εξειδικευμένου χρήστη;</string>
     <string name="settings_advanced_expert_mode_dialog_message">Η λειτουργία εξειδικευμένου χρήστη δίνει περισσότερο έλεγχο για την εφαρμογή των τροποποιήσεων, αλλά η λάθος ρύθμιση στη λειτουργία αυτή μπορεί να προκαλέσει τη δυσλειτουργικότητα της εφαρμογής</string>
-    <string name="settings_advanced_strip_unused_libs">Εκκαθάριση μη χρησιμοποιούμενων εγγενών βιβλιοθηκών</string>
-    <string name="settings_advanced_strip_unused_libs_description">Διαγραφή των εγγενών βιβλιοθηκών για ανυποστήρικτες αρχιτεκτονικές επεξεργαστών από τροποποιημένες εφαρμογές</string>
-    <string name="settings_advanced_skip_unneeded_splits">Φιλτράρισμα των split APK για συσκευή</string>
-    <string name="settings_advanced_skip_unneeded_splits_description">Κατά τη συγχώνευση, παραλείψτε τις χωριστές για τοπικότητα, πυκνότητα και ABI που δεν είναι απαραίτητες για αυτήν τη συσκευή. Μειώνει το μέγεθος του συγχωνευμένου APK</string>
+    <string name="settings_advanced_strip_unused_libs">Βελτιστοποίηση για αρχιτεκτονική συσκευής</string>
+    <string name="settings_advanced_strip_unused_libs_description">"Παράλειψη split APK modules για μη υποστηριζόμενες αρχιτεκτονικές CPU, τοποθεσίες και πυκνότητες οθόνης κατά τη συγχώνευση.
+Για απλά APK, αφαιρεί τις αρχικές βιβλιοθήκες για μη υποστηριζόμενες αρχιτεκτονικές μετά την επιδιόρθωση"</string>
     <!-- Bytecode mode -->
     <string name="settings_advanced_bytecode_mode">Λειτουργία επεξεργασίας bytecode</string>
     <string name="settings_advanced_bytecode_mode_dialog_description">Ελέγχει τον τρόπο επεξεργασίας του bytecode κατά τη διάρκεια της επιδιόρθωσης. Επηρεάζει την ταχύτητα επιδιόρθωσης, τη χρήση μνήμης και το μέγεθος του APK εξόδου</string>
